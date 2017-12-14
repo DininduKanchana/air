@@ -5,69 +5,12 @@
 
 <head>
 	<meta charset="UTF-8">
-
 	<title>National Building Research Organization </title>
-
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-
 </head>
 
 <body>
-	<div class="header">
-		<div>
-
-			<a href="index.html" id="logo">
-				<img src="images/logo.png" alt="logo">
-			</a>
-
-			<div>
-
-				<a href="login.php">Login</a>
-
-				<ul>
-
-					<li class="selected">
-
-						<a href="index.html">Home</a>
-
-					</li>
-
-					<li>
-						<a href="about.html">About</a>
-
-					</li>
-
-					<li>
-
-						<a href="programs.html">Our Programs</a>
-
-					</li>
-
-					<li>
-
-						<a href="gallery.html">Gallery</a>
-
-					</li>
-
-					<li>
-
-						<a href="contact.html">Contact</a>
-
-					</li>
-
-					<li>
-
-						<a href="news.html">News</a>
-
-					</li>
-
-				</ul>
-
-			</div>
-		</div>
-	</div>
-
-
+	<?php  include('navbar.php');?>
 	<div class="body">
 
 		<div class="home">
