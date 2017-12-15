@@ -7,7 +7,7 @@
                 <a href="login.php">Login</a>
 				<ul>
 					<li class="selected">
-						<a href="index.html">Home</a>
+						<a href="welcome.php">Home</a>
 					</li>
 					<li>
 						<a href="about.html">About</a>
