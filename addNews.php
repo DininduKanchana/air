@@ -1,12 +1,12 @@
 <?php
-   include('header.php');
+   include_once('header.php');
 ?>
 
     <body>
         <?php
-            include('navbar.php');
-            include('./database/AdminOperations.php');
-            include('./functions/functions.php');
+            include_once('navbar.php');
+            include_once('./database/AdminOperations.php');
+            include_once('./functions/functions.php');
             
             $target_dir = "uploads/";
             if(isset($_POST["submit"])) {

@@ -36,4 +36,8 @@ function deleteNews($id) {
     return true;
 }
 
+function getLimitedNews() {
+    $result = mysqli_query($GLOBALS['db'], 'CALL get_limited_news()') or die("Query fail: " . mysqli_error()); 
+    return $result;
+}
 ?>

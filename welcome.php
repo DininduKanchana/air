@@ -1,10 +1,10 @@
 <?php
-   include('header.php');
+   include_once('header.php');
 ?>
 
     <body>
         <?php
-        include('adminNavbar.php');
+        include_once('adminNavbar.php');
     ?>
             <div class="container">
                 <div class="row">

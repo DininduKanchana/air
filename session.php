@@ -1,5 +1,5 @@
 <?php
-   include('./database/config.php');
+   include_once('./database/config.php');
    session_start();
    
    $user_check = $_SESSION['login_user'];
