@@ -8,18 +8,16 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-				<a class="nav-link text-light" href="#">Home
-					<span class="sr-only">(current)</span>
-				</a>
+				<a class="nav-link text-light" href="index.php">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link text-light" href="#">About</a>
+				<a class="nav-link text-light" href="about.php">About</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link text-light" href="#">Publications</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link text-light" href="#">Act and Regulations</a>
+				<a class="nav-link text-light" href="act.php">Act and Regulations</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link text-light" href="#">Gallery</a>
