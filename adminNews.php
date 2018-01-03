@@ -6,6 +6,10 @@
         <?php
         include_once('adminNavbar.php');
         include_once('./database/AdminOperations.php');
+        if(isset($_GET["id"])) {
+            deleteNews($_GET["id"]);
+        }
+
     ?>
             <div class="container">
                 <a href="/air/addNews.php">
@@ -34,7 +38,7 @@
                                     <?php  echo $row["title"]?>
                                 </td>
                                 <td>
-                                    <a href="viewNews.php?id=<?php echo $row['id' ]?>">
+                                    <a href="viewNews.php?id=<?php echo $row['id']?>">
                                         <button type="button" class="btn btn-outline-primary">View</button>
                                     </a>
                                     <button type="button" class="btn btn-outline-danger">Delete</button>

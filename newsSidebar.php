@@ -25,7 +25,8 @@ include_once('./database/AdminOperations.php');
                 </tr>
                 <?php }
                     }
-                        mysqli_free_result($result);
+                    mysqli_free_result($result);
+                    mysqli_next_result($GLOBALS['db']);
                         ?>
         </tbody>
     </table>
